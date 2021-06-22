@@ -15,7 +15,7 @@ const TodoList = () => {
     setNum(num +5);
   };
 
-  const decrNum = () => {
+  const Reset = () => {
     setNum(0);
   };
  
@@ -28,7 +28,7 @@ const TodoList = () => {
            <button onClick={incNum}> Incr by 1 </button>
            <button onClick={decNum}> Decr by 2 </button>
            <button onClick={incrNum}> Incr by 5 </button>
-           <button onClick={decrNum}> Reset </button>
+           <button onClick={0}> Reset </button>
          </div>
          </div>
       </div>
